@@ -129,6 +129,7 @@ const Hero = () => {
                             flexDirection: "column",
                             justifyContent: "space-between",
                             alignItems: "center",
+                            gap: 2,
                         }}
                         >
                             <Typography
@@ -152,6 +153,7 @@ const Hero = () => {
                                 Take your financial life online. Your Easybank account will be a one-stop-shop 
                                 for spending, saving, budgeting, investing, and much more.
                             </Typography>
+                            <MainButton/>
                         </Box>
                     </Grid>
                 </Grid>
