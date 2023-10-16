@@ -196,7 +196,7 @@ const Navbar = () => {
                 PaperProps={{
                     sx: {
                         marginTop: "4rem",
-                        backgroundColor: "transparent",
+                        backgroundColor: "primary.main",
                         maxWidth: "90vw",
                         mx: "auto",
                         borderRadius: 2,
