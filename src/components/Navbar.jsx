@@ -207,7 +207,7 @@ const Navbar = () => {
                 >
                     <Box
                     sx={{
-                        background: 'primary',
+                        background: 'primary.main',
                         height: "auto",
                         mx: "auto",
                         my: "1.25rem",
@@ -230,13 +230,13 @@ const Navbar = () => {
                             sx={{
                                 justifyContent: "center",
                                 alignContent: "center",
-                                color: "secondary",
+                                color: "secondary.main",
                             }}
                             >
                                 <Link
                                 href='#home'
                                 underline='none'
-                                color='secondary'
+                                color='secondary.main'
                                 sx={{
                                     fontFamily: "'Public Sans', sans-serif",
                                     fontSize: "1.125rem",
@@ -252,13 +252,13 @@ const Navbar = () => {
                             sx={{
                                 justifyContent: "center",
                                 alignContent: "center",
-                                color: "secondary",
+                                color: "secondary.main",
                             }}
                             >
                                 <Link
                                 href='#about'
                                 underline='none'
-                                color='secondary'
+                                color='secondary.main'
                                 sx={{
                                     fontFamily: "'Public Sans', sans-serif",
                                     fontSize: "1.125rem",
@@ -274,13 +274,13 @@ const Navbar = () => {
                             sx={{
                                 justifyContent: "center",
                                 alignContent: "center",
-                                color: "secondary",
+                                color: "secondary.main",
                             }}
                             >
                                 <Link
                                 href='#contact'
                                 underline='none'
-                                color='secondary'
+                                color='secondary.main'
                                 sx={{
                                     fontFamily: "'Public Sans', sans-serif",
                                     fontSize: "1.125rem",
@@ -296,13 +296,13 @@ const Navbar = () => {
                             sx={{
                                 justifyContent: "center",
                                 alignContent: "center",
-                                color: "secondary",
+                                color: "secondary.main",
                             }}
                             >
                                 <Link
                                 href='#blog'
                                 underline='none'
-                                color='secondary'
+                                color='secondary.main'
                                 sx={{
                                     fontFamily: "'Public Sans', sans-serif",
                                     fontSize: "1.125rem",
@@ -318,7 +318,7 @@ const Navbar = () => {
                                 <Link
                                 href='#careers'
                                 underline='none'
-                                color='secondary'
+                                color='secondary.main'
                                 sx={{
                                     fontFamily: "'Public Sans', sans-serif",
                                     fontSize: "1.125rem",
