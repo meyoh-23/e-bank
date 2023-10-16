@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 import logo from './../assets/logo.svg';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import MainButton from './MainButton';
 
 
 const Navbar = () => {
     const [mobileMenu, setMobileMenu] = useState(false);
-    const colorGrandient = 'linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%))'
 
     return (
         <AppBar
@@ -163,20 +163,7 @@ const Navbar = () => {
                         }
                     }}
                     >
-                        <Button
-                        variant='outlined'
-                        sx={{
-                            borderRadius: 8,
-                            background: colorGrandient,
-                            textTransform: "capitalize",
-                            fontFamily:"'Public Sans', sans-serif",
-                            fontSize: "1.125rem",
-                            fontWeight: "400",
-                            whiteSpace: "nowrap",
-                        }}
-                        >
-                            request Invite
-                        </Button>
+                    <MainButton/>
                     </Box>
                     <Box
                     sx={{
@@ -350,4 +337,4 @@ const Navbar = () => {
         </AppBar>
 )}
 
-export default Navbar
+export default Navbar;
