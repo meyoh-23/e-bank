@@ -1,7 +1,10 @@
 import React from 'react';
 import {Box, Typography} from '@mui/material';
 
-// import the service icons kesho and implement that section
+import onlineIcon from './../assets/icon-online.svg';
+import badgetingIcon from './../assets/icon-budgeting.svg';
+import onboardingIcon from './../assets/icon-onboarding.svg';
+import apiIcon from './../assets/icon-api.svg';
 
 const WhyUs = () => {
     return (
@@ -9,7 +12,7 @@ const WhyUs = () => {
         sx={{
             my: {
                 xs: 2,
-                md: 3,
+                md: 0,
             },
             backgroundColor: "hsl(0, 0%, 98%)",
             display: "flex",
@@ -51,12 +54,12 @@ const WhyUs = () => {
                 sx={{
                     fontFamily: "'Public Sans', sans-serif",
                     color: "neutral.main",
-                    paddingRight: 7.5,
                     maxWidth: "md",
                     textAlign: {
                         xs: "center",
                         md: "left"
-                    }
+                    },
+                    marginBottom: 2,
                 }}
                 >
                     We leverage Open Banking to turn your bank account into your financial hub. Control 
@@ -85,9 +88,34 @@ const WhyUs = () => {
                         xs: "center",
                         md: "flex-start",
                     },
-                    gap: 2.25,
+                    gap: {
+                        xs: 4,
+                        md: 2.25,
+                    }
                 }}
                 >
+                    <Box
+                        sx={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: {
+                            xs: "center",
+                            md: "flex-start"
+                        },
+                        justifyContent: {
+                            xs: "center",
+                            md: "flex-start",
+                            }
+                        }}
+                    >
+                        <img src={onlineIcon}
+                        alt="onlineIcon" 
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto",
+                        }}
+                        />
+                    </Box>
                     <Typography
                 sx={{
                     color: "secondary.main",
@@ -106,7 +134,6 @@ const WhyUs = () => {
                         sx={{
                             fontFamily: "'Public Sans', sans-serif",
                             color: "neutral.main",
-                            paddingRight: 7.5,
                             maxWidth: "md",
                             textAlign: {
                                 xs: "center",
@@ -130,6 +157,28 @@ const WhyUs = () => {
                     gap: 1.5,
                 }}
                 >
+                    <Box
+                        sx={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: {
+                            xs: "center",
+                            md: "flex-start"
+                        },
+                        justifyContent: {
+                            xs: "center",
+                            md: "flex-start",
+                            }
+                        }}
+                    >
+                        <img src={badgetingIcon}
+                        alt="badgetingIcon" 
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto",
+                        }}
+                        />
+                    </Box>
                     <Typography
                 sx={{
                     color: "secondary.main",
@@ -148,7 +197,6 @@ const WhyUs = () => {
                         sx={{
                             fontFamily: "'Public Sans', sans-serif",
                             color: "neutral.main",
-                            paddingRight: 7.5,
                             maxWidth: "md",
                             textAlign: {
                                 xs: "center",
@@ -172,6 +220,28 @@ const WhyUs = () => {
                     gap: 2.25,
                 }}
                 >
+                    <Box
+                        sx={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: {
+                            xs: "center",
+                            md: "flex-start"
+                        },
+                        justifyContent: {
+                            xs: "center",
+                            md: "flex-start",
+                            }
+                        }}
+                    >
+                        <img src={onboardingIcon}
+                        alt="onboardingIcon" 
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto",
+                        }}
+                        />
+                    </Box>
                     <Typography
                 sx={{
                     color: "secondary.main",
@@ -190,7 +260,6 @@ const WhyUs = () => {
                         sx={{
                             fontFamily: "'Public Sans', sans-serif",
                             color: "neutral.main",
-                            paddingRight: 7.5,
                             maxWidth: "md",
                             textAlign: {
                                 xs: "center",
@@ -214,6 +283,28 @@ const WhyUs = () => {
                     gap: 2.25,
                 }}
                 >
+                    <Box
+                        sx={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: {
+                            xs: "center",
+                            md: "flex-start"
+                        },
+                        justifyContent: {
+                            xs: "center",
+                            md: "flex-start",
+                            }
+                        }}
+                    >
+                        <img src={apiIcon}
+                        alt="apiIcon" 
+                        style={{
+                            maxWidth: "100%",
+                            height: "auto",
+                        }}
+                        />
+                    </Box>
                     <Typography
                 sx={{
                     color: "secondary.main",
@@ -232,7 +323,6 @@ const WhyUs = () => {
                         sx={{
                             fontFamily: "'Public Sans', sans-serif",
                             color: "neutral.main",
-                            paddingRight: 7.5,
                             maxWidth: "md",
                             textAlign: {
                                 xs: "center",
