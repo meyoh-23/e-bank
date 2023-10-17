@@ -92,6 +92,10 @@ const LatestArticles = () => {
                             fontFamily: "'Public Sans', sans-serif",
                             fontSize: "1.25rem", 
                             fontWeight: "400",
+                            "&:hover": {
+                                color: "hsl(136, 65%, 51%)",
+                                cursor: "pointer"
+                            }
                         }}
                         >
                             Receive money in any currency with no fees
@@ -145,6 +149,10 @@ const LatestArticles = () => {
                             fontFamily: "'Public Sans', sans-serif",
                             fontSize: "1.25rem", 
                             fontWeight: "400",
+                            "&:hover": {
+                                color: "hsl(136, 65%, 51%)",
+                                cursor: "pointer"
+                            }
                         }}
                         >
                             Treat yourself without worrying about money
@@ -198,6 +206,10 @@ const LatestArticles = () => {
                             fontFamily: "'Public Sans', sans-serif",
                             fontSize: "1.25rem", 
                             fontWeight: "400",
+                            "&:hover": {
+                                color: "hsl(136, 65%, 51%)",
+                                cursor: "pointer"
+                            }
                         }}
                         >
                             Take your Easybank card wherever you go
@@ -250,6 +262,10 @@ const LatestArticles = () => {
                             fontFamily: "'Public Sans', sans-serif",
                             fontSize: "1.25rem", 
                             fontWeight: "400",
+                            "&:hover": {
+                                color: "hsl(136, 65%, 51%)",
+                                cursor: "pointer"
+                            }
                         }}
                         >
                             Our invite-only Beta accounts are now live!
