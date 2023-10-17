@@ -1,6 +1,4 @@
-import React from 'react';
 import {Box, Typography} from '@mui/material';
-
 import onlineIcon from './../assets/icon-online.svg';
 import badgetingIcon from './../assets/icon-budgeting.svg';
 import onboardingIcon from './../assets/icon-onboarding.svg';

@@ -1,6 +1,7 @@
-import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
+import { CssBaseline, ThemeProvider, createTheme, Box } from "@mui/material";
 import Hero from "./components/Hero";
 import WhyUs from "./components/WhyUs";
+import LatestArticles from "./components/LatestArticles";
 
 const theme = createTheme({
   breakpoints: {
@@ -34,7 +35,10 @@ function App() {
     <CssBaseline/>
     <div>
       <Hero/>
-      <WhyUs/>
+      <Box variant='main'>
+        <WhyUs/>
+        <LatestArticles/>
+      </Box>
     </div>
     </ThemeProvider>
     </>
