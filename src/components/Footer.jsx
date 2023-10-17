@@ -1,4 +1,4 @@
-import { Box, Link, Typography } from "@mui/material";
+import { Box, Button, Link, Typography } from "@mui/material";
 import logo from './../assets/logo.svg';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -67,7 +67,17 @@ const Footer = () => {
                 }}
                 >
                     <Box>
-                        Logo Icon
+                        <Button size="large"
+                        sx= {{
+                            cursor: "pointer",
+                            backgroundImage: `url(${logo})`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat",
+                        }}
+                        >
+                            <img src={logo}alt="" style={{maxWidth: "100%", height:"auto"}}/>
+                        </Button>
                     </Box>
                     <Box
                     sx={{
